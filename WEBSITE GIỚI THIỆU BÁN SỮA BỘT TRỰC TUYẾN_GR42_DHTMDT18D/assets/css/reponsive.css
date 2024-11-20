@@ -1,0 +1,306 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+/* mobile */
+@media screen and (max-width: 767px) {
+  /* header */
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  .header .box_hd {
+    display: none;
+  }
+  /* menu */
+
+  .menu {
+    display: none;
+  }
+  .nav .bar {
+    opacity: 1;
+    visibility: inherit;
+    display: block;
+  }
+  .slideshow-container {
+    width: 100%;
+    height: 31vh;
+  }
+  .slideshow-container .mySlides img {
+    width: 100%;
+    height: 31vh;
+  }
+  .dv{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  .dv .desc{
+    margin: 30px 0; 
+  }
+  .container-dv{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+  }
+.container-dv .box-dv{
+    width: 100%;
+  }
+  .container-dv .box-dv{
+    margin-top: 30px;
+  }
+  .container-lh{
+    overflow:inherit;
+    flex-direction: column;
+    height: 100vh;
+    background-repeat: repeat;
+    overflow: inherit;
+    justify-content: center;
+  }
+  .container-lh::after{
+    background-size: auto;
+  }
+  .container-lh .container-ndlh,.box_lienhe{
+    position: relative;
+    left: 10px;
+    width: 100%;
+  }
+  .box_lienhe{
+    margin-top: 30px;
+    height: 100%;
+  }
+  .box-input .input_tt{
+    width: 90%;
+  }
+  .container-dsti .dsti::after{
+    left: 50%;
+    top:120%;
+  }
+  .wrapper .slide-card{
+    grid-auto-columns: 100%;
+  }
+  .wrapper i {
+    height: 45px;
+    width: 45px;
+  }
+  .footer{
+    background-repeat:repeat;
+    height: 120vh;
+  }
+  .footer .footer__navbar{
+    height: 35vh;
+    width: 85%;
+  }
+  .footer .footer_navbar_body{
+    flex-direction: column;
+  }
+  .footer__main .footer-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__body__final{
+    display: none;
+  }
+  .footer__body__second{
+    margin-top: 10px;
+  }
+  /* Dịch vụ */
+  .page-title .container{
+    left: 100px;
+  }
+  .box_thu_gon{
+    display: none;
+  }
+  .container-dv .box_dv{
+margin: 10px;    
+  }
+  .container_dvc .container_box_dvc{
+    width: 100%;
+  }
+  .container_dvc .container_box_dvc img{
+    width: 100%;
+    height: 100%;
+  }
+  /* liên hệ */
+  .container_lh_{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .container_tt_lh{
+    width: 100%;
+  }
+  .map{
+    left: 10px;
+  }
+  .header_baogia h1 {
+    font-size: 30px;
+  }
+  
+  .header_baogia p {
+    margin-top: 26px;
+    font-size: 15px;
+  }
+  
+
+
+  .choosen {
+  height: 50px;
+  }
+  .box {
+  height: 30px;
+  }
+  .button_timkiem {
+  margin-left:11px; 
+  }
+  /* .box-dv .title {
+  margin:26px 46px;
+  } */
+  .box-dv {
+   border-right: none;
+  }
+  .box-dv + .box-dv {
+  margin-top: 10px;
+  }
+  .last {
+  margin: 46px 30px 46px;
+  }
+
+  .header a img {
+    text-align: center;
+  }
+  .canho_thanhtoan {
+    flex-direction: column;
+
+  }
+  .canho_thanhtoan img,.infor {
+    width: 80%;
+    padding: 26px;
+    margin: 0 auto;
+  }
+  .apartment {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    font-size: 10px;
+  }
+  .finish {
+   width: 100%;
+   margin-bottom: 46px;
+  }
+  .finish button {
+    min-width: 40%;
+  }
+  #largeImage {
+    max-width: 430px;
+    max-height: 300px;
+  }
+  .tieude {
+    font-size: 19px;
+  }
+ 
+}
+  
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #thongTinEmail {
+    display: none;
+  }
+  .last {
+    margin: 46px 45px 46px;
+  }
+  .container_box_dvc {
+    width: 800px;
+  }
+  .container_dvc {
+    max-width: 1140px;
+    margin: 46px 0 26px 15px;
+  }
+
+  
+  .apartmentDivImg img {
+    width: 90%;
+    height: 92%;
+    margin: auto;
+  }
+  
+  .main_thanhtoan {
+    width: 80%;
+    margin: 46px auto;
+  } 
+  .box-1 span input {
+    height: 30px;
+    width: 50%;
+  }
+  .text {
+  font-size: 18px;
+  } 
+  
+}
+
+
+@media screen and (max-width: 1023px) {
+
+  .main_thanhtoan {
+    width: 80%;
+    margin: auto;
+   }
+   .box-1 span input {
+    width: min(100%, 170px); /* Sử dụng min() để giữ chiều rộng tối thiểu là 170px */
+  }
+  #paymentForm {
+    flex-direction: column;
+  }
+  .atm {
+    margin-top: 26px;
+    width: 100%;
+  
+  }
+  .atm img {
+    width: 80%;
+    height: 240px;
+  
+  }
+  .header_baogia h1 {
+    font-size: 27px;
+  }
+  .container_dvc .box_thu_gon {
+    max-width: 230px;
+    max-height: 400px;
+  }
+  .apartmentDivImg {
+    width: 100%;
+    height: 300px;
+    display: flex;
+  
+  }
+
+}
+
+
+.backtop {
+  width: 50px;
+  height: 50px;
+  background: #019c41;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 100;
+}

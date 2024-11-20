@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Quản lí chung cư</title>
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+
+    <!-- link font -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"/>
+    <!-- link icon -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+    <!-- link css -->
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/styledv.css"/>
+    <link rel="stylesheet" href="./assets/css/stylelh.css"/>
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <!-- link icon -->
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css"/>
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+
+<body>
+<!-- Header -->
+<header class="header">
+    <a href="./index.html"><img src="./assets/css/img/logofinal.png" alt="" style="height: 350px;"/></a>
+    <div class="box_hd">
+        <i class="fa-solid fa-phone-volume"></i>
+        <div class="box_tt">
+            <p class="tt">Hotline:</p>
+            <p class="desc">0392.117.910</p>
+        </div>
+    </div>
+    <div class="box_hd">
+        <i class="fa-solid fa-location-dot"></i>
+        <div class="box_tt">
+            <p class="tt">Địa chỉ:</p>
+            <p class="desc">
+                53-Đường số 20-Hiệp bình chánh-Thủ đức
+            </p>
+        </div>
+    </div>
+    <div class="box_hd">
+        <i class="fa-regular fa-envelope"></i>
+        <div class="box_tt">
+            <p class="tt">Email:</p>
+            <p class="desc">huynhkieumyy@gmail.com</p>
+        </div>
+    </div>
+</header>
+<!-- Điều hướng -->
+<nav class="nav">
+    <div class="bar" style="margin-left: 10px; color: aliceblue; cursor: pointer">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <ul class="menu">
+        <li>
+            <a href="./index.html">Trang chủ</a>
+        </li>
+        <li>
+            <a href="./sanpham.html">Sản phẩm</a>
+        </li>
+        <li><a href="./dathang.html">Đặt hàng</a></li>
+        <li>
+            <a href="./chinhsach.html">Chính sách</a>
+            <ul class="sub-menu">
+                <li><a href="./chinhsachtt.html">Chính sách thanh toán</a></li>
+                <li><a href="./chinhsachđtht.html">Chính sách đổi trả và hoàn tiền</a></li>
+                <li><a href="./chinhsachcskh.html">Chính sách chăm sóc khách hàng</a></li>
+                <li><a href="./chinhsachbh.html">Chính sách bảo hành</a></li>
+                <li><a href="./chinhsachvanchuyenvagiaohang.html">Chính sách vận chuyển và giao hàng</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="./chungnhan.html">Chứng nhận</a>
+            <ul class="sub-menu">
+                <li><a href="./chungnhanattp.html">Chứng nhận an toàn thực phẩm</a></li>
+                <li><a href="./chungnhanpcch.html">Chứng nhận phòng cháy chữa cháy</a></li>
+                <li><a href="./chungnhangpkd.html">Chứng nhận giấy phép kinh doanh</a></li>
+            </ul>
+        </li>
+        <li><a href="./lienhe.html" style="background-color: #006c2e">Liên hệ</a></li>
+        <li><a href="./sitemap.html">Sitemap</a></li>
+
+    </ul>
+    <div class="button-action">
+        <a href="#!" class="btn-link" id="form-open"><span>Đăng nhập</span></a>
+    </div>
+</nav>
+<!-- Home -->
+<section class="home">
+    <div class="form_container">
+        <i class="uil uil-times form_close"></i>
+        <!-- Đăng nhập form -->
+        <div class="form login_form">
+            <form action="#!">
+                <h2>Đăng nhập</h2>
+                <div class="input_box">
+                    <input type="email" placeholder="Nhập email..." required id="emails"/>
+                    <i class="uil uil-envelope-alt email"></i>
+                </div>
+                <div class="input_box">
+                    <input type="password" placeholder="Nhập mật khẩu..." required id="pass"/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                <div class="option_field">
+            <span class="checkbox">
+              <input type="checkbox" id="check"/>
+              <label for="check">Lưu tài khoản</label>
+            </span>
+                    <a href="#!" class="forgot_pw">Quên mật khẩu?</a>
+                </div>
+                <button class="button" id="dangnhap">Đăng nhập</button>
+                <div class="login_signup">
+                    Bạn chưa có tài khoản?
+                    <a href="#!" id="signup">Đăng kí?</a>
+                </div>
+            </form>
+        </div>
+        <!-- Đăng kí -->
+        <div class="form signup_form">
+            <form action="#!">
+                <h2>Đăng kí</h2>
+                <div class="input_box">
+                    <input type="email" placeholder="Nhập email..." required/>
+                    <i class="uil uil-envelope-alt email"></i>
+                </div>
+                <div class="input_box">
+                    <input type="password" placeholder="Nhập mật khẩu..." required/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                <div class="input_box">
+                    <input type="password" placeholder="Nhập lại mật khẩu..." required/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                <button class="button">Đăng kí</button>
+
+                <div class="login_signup">
+                    Bạn đã có tài khoản?
+                    <a href="#" id="login">Đăng nhập?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<div>
+    <button id="confirmSuccessButton">
+        Đăng nhập thành công
+    </button>
+</div>
+
+<!-- end of header -->
+<div class="page-title">
+    <div class="container">
+        <h1>LIÊN HỆ</h1>
+        <ul class="dh">
+            <li><a href="./index.html" class="home">Trang chủ</a></li>
+            <i class="fa-solid fa-angle-right"></i>
+            <li>Liên hệ</li>
+        </ul>
+    </div>
+</div>
+<div class="container_lh_">
+    <div class="container_tt_lh">
+        <h2 class="heading">BAN QUẢN LÍ VÀ ĐIỀU HÀNH CỬA HÀNG</h2>
+        <div class="list">
+            <div class="c-list">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="text">
+                    53 - Đường số 20 - Hiệp bình chánh - Thủ đức
+                </p>
+            </div>
+            <div class="c-list">
+                <i class="fa-solid fa-phone"></i>
+                <p class="text">0392.117.910</p>
+            </div>
+            <div class="c-list">
+                <i class="fa-solid fa-envelope"></i>
+                <p class="text">huynhkieumy@gmail.com</p>
+            </div>
+        </div>
+        <div class="incon_fl" style="display: flex;align-items: center;">
+            <p style="font-weight: 600;display: inline-block;">FOLLOW US: </p>
+            <i class="fa-brands fa-facebook-f" style="background-color: #4267b2;"></i>
+            <i class="fa-brands fa-twitter" style="    background-color: #1da1f2;"></i>
+            <i class="fa-brands fa-instagram" style="background-color: #e52882;"></i>
+        </div>
+    </div>
+    <div class="container_glh">
+        <h2 class="glh">Gửi liên hệ</h2>
+        <p>
+            Bạn cần sự trợ giúp? Hãy điền đầy đủ thông tin của bạn, chúng tôi sẽ
+            liên hệ với bạn ngay sau khi nhận yêu cầu!
+        </p>
+        <form>
+            <div class="Form">
+                <div class="form-group">
+                    <input type="text" id="username" class="form_control" placeholder="Họ và tên của bạn " required/>
+                    <span><i class="fa-solid fa-user"></i></span>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="sdt" class="form_control" placeholder="SDT của bạn" required/>
+                    <span><i class="fa-solid fa-phone"></i></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" class="form_control" placeholder="Email của bạn" required/>
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                </div>
+                <div class="form-group">
+          <textarea autocomplete="off" id="subject" class="form_control" type="text" rows="4"
+                    placeholder="Nội dung cần hổ trợ"
+                    required style="resize: none"></textarea>
+                    <span><i class="fa-solid fa-pen"></i></span>
+                </div>
+            </div>
+            <a>
+                <button type="submit" class="btn-" id="lienhe">Gửi liên hệ</button>
+            </a>
+        </form>
+
+    </div>
+</div>
+<div class="ggmap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.8083688122865!2d106.72058037476688!3d10.825972358278458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752881f8a6f7c3%3A0x8232627d3d17bd5a!2zNTMgxJAuIFPhu5EgMjAsIEhp4buHcCBCw6xuaCBDaMOhbmgsIFRo4bunIMSQ4bupYywgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1730487305009!5m2!1svi!2s"
+            width="80%" height="450" class="map" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!-- footer -->
+<footer class="footer">
+    <div class="footer__modify">
+        <div class="footer__navbar">
+            <div class="footer_navbar_body">
+                <div class="distance">
+                    <i class="fa-solid fa-phone-volume icon_navbar"></i>
+                    <h3>Hotline</h3>
+                    0392.117.910
+                </div>
+                <div class="distance">
+                    <i class="fa-solid fa-location-dot icon_navbar"></i>
+                    <h3>Địa chỉ</h3>
+                    <p>53-Đường số 20-Hiệp bình chánh-Thủ đức</p>
+                </div>
+                <div class="distance qr">
+                    <i class="fa-solid fa-envelope icon_navbar qr"></i>
+                    <h3>Email</h3>
+                    <p class="qr">huynhkieumyy@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__main">
+            <div class="footer-content">
+                <div class="footer__body__first">
+                    <div class="noidung">
+                        <h2>THÔNG TIN LIÊN HỆ</h2>
+                        <div>
+                            <i class="fa-solid fa-house distance"></i>
+                            <span class="distance">53 - Đường số 20 - Hiệp bình chánh - Thủ đức
+                </span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone distance"></i>
+                            <span class="distance">0392.117.910</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope distance"></i>
+                            <span class="distance">huynhkieumyy@gmail.com </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__body__second">
+                    <h2>HỖ TRỢ TRỰC TUYẾN</h2>
+                    <div class="picture">
+                        <img src="./assets/css/img/nhanviennhansu.jpg" alt="nhân viên tư vấn" class="img_tuvan"/>
+                        <div class="thongtin">
+                            <u style="color: rgb(164, 241, 11)"> Mrs.Lien</u>
+                            <p class="distance">Nhân viên tư vấn</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__body__final">
+                    <h2>VỊ TRÍ</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.8083688122865!2d106.72058037476688!3d10.825972358278458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752881f8a6f7c3%3A0x8232627d3d17bd5a!2zNTMgxJAuIFPhu5EgMjAsIEhp4buHcCBCw6xuaCBDaMOhbmgsIFRo4bunIMSQ4bupYywgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1730487305009!5m2!1svi!2s"
+                            width="400" height="400" style="border:0; top: 10px" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Backtop -->
+<div class="backtop">
+    <i class="fa-solid fa-circle-up"></i>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+        crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop()) {
+                $(".backtop").fadeIn();
+            } else {
+                $(".backtop").fadeOut();
+            }
+        });
+    });
+    $(".backtop").click(function () {
+        $("html, body").animate(
+            {
+                scrollTop: 0,
+            },
+            1000
+        );
+    });
+</script>
+<script>
+    document.getElementById('lienhe').addEventListener('click', function (event) {
+        event.preventDefault();
+
+        const username = document.getElementById("username").value;
+        const sdt = document.getElementById("sdt").value;
+        const email = document.getElementById("email").value;
+        const subject = document.getElementById("subject").value;
+
+        if (username === "" || sdt === "" || email === "" || subject === "") {
+            alert("Vui lòng nhập đầy đủ thông tin!");
+        } else {
+            window.open("lienhe1.html", "_self");
+        }
+    });
+</script>
+
+
+<script src="./java/JS/sign.js"></script>
+<script src="./java/JS/hienhoadon.js"></script>
+</body>
+
+</html>

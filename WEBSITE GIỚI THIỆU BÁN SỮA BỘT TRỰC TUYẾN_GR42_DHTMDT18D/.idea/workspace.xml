@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af02a752-4a8f-4d2f-8952-9cf48b312189" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sitemap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/ghide.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/ghide.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style_hoadon.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style_hoadon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style_thanhtoan.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style_thanhtoan.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styledv.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styledv.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dichvu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dichvubv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dichvucscq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dichvucskh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dichvukthuat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dichvuvs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoadon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_hoadon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexdatcoc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexdatoc1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lienhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/lienhe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lienhe1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lienhe1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noiquy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thogbao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thongbaorieng.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2oFmw9qEvPvbmE90KDcCLvfs43W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.hoadon.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/WEBSITE GIỚI THIỆU,BÁN SỮA BỘT TRỰC TUYẾN_GR42_DHTMDT18D&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="hoadon.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/QUANLICHUNGCU/hoadon.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/QUANLICHUNGCU/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.hoadon.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af02a752-4a8f-4d2f-8952-9cf48b312189" name="Changes" comment="" />
+      <created>1730473933422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730473933422</updated>
+      <workItem from="1730473934527" duration="1156000" />
+      <workItem from="1730567867510" duration="157000" />
+      <workItem from="1731161920644" duration="3055000" />
+      <workItem from="1731310626764" duration="19557000" />
+      <workItem from="1731372648183" duration="596000" />
+      <workItem from="1731407321193" duration="38000" />
+      <workItem from="1731518075091" duration="6687000" />
+      <workItem from="1731525690080" duration="3281000" />
+      <workItem from="1731652707903" duration="314000" />
+      <workItem from="1731653242347" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

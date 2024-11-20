@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Quản lí chung cư</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"/>
+
+    <link rel="stylesheet" href="./asset_hoadon/css/reset_hoadon.css"/>
+
+
+    <link rel="stylesheet" href="./assets/css/reset_hoadon.css"/>
+
+    <link rel="stylesheet" href="./assets/css/style_thanhtoan.css"/>
+    <link rel="stylesheet" href="./assets/css/ghide.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+
+
+</head>
+
+<body>
+
+<!-- Header -->
+<header class="header">
+    <a href="./index.html"><img src="./assets/css/img/logofinal.png" alt="" style="height: 350px;"/></a>
+    <div class="box_hd">
+        <i class="fa-solid fa-phone-volume"></i>
+        <div class="box_tt">
+            <p class="tt">Hotline:</p>
+            <p class="desc">0392.117.910</p>
+        </div>
+    </div>
+    <div class="box_hd">
+        <i class="fa-solid fa-location-dot"></i>
+        <div class="box_tt">
+            <p class="tt">Địa chỉ:</p>
+            <p class="desc">
+                53-Đường số 20-Hiệp bình chánh-Thủ đức
+            </p>
+        </div>
+    </div>
+    <div class="box_hd">
+        <i class="fa-regular fa-envelope"></i>
+        <div class="box_tt">
+            <p class="tt">Email:</p>
+            <p class="desc">huynhkieumyy@gmail.com</p>
+        </div>
+    </div>
+</header>
+<!-- Điều hướng -->
+<nav class="nav">
+    <div class="bar" style="margin-left: 10px; color: aliceblue; cursor: pointer">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <ul class="menu">
+        <li>
+            <a href="./index.html" style="background-color: #006c2e">Trang chủ</a>
+        </li>
+        <li>
+            <a href="./sanpham.html">Sản phẩm</a>
+        </li>
+        <li><a href="./dathang.html">Đặt hàng</a></li>
+        <li>
+            <a href="./chinhsach.html">Chính sách</a>
+            <ul class="sub-menu">
+                <li><a href="./chinhsachtt.html">Chính sách thanh toán</a></li>
+                <li><a href="./chinhsachđtht.html">Chính sách đổi trả và hoàn tiền</a></li>
+                <li><a href="./chinhsachcskh.html">Chính sách chăm sóc khách hàng</a></li>
+                <li><a href="./chinhsachbh.html">Chính sách bảo hành</a></li>
+                <li><a href="./chinhsachvanchuyenvagiaohang.html.html">Chính sách vận chuyển và giao hàng</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="./chungnhan.html">Chứng nhận</a>
+            <ul class="sub-menu">
+                <li><a href="./chungnhanattp.html">Chứng nhận an toàn thực phẩm</a></li>
+                <li><a href="./chungnhanpcch.html">Chứng nhận phòng cháy chữa cháy</a></li>
+                <li><a href="./chungnhangpkd.html">Chứng nhận giấy phép kinh doanh</a></li>
+            </ul>
+        </li>
+        <li><a href="./lienhe.html">Liên hệ</a></li>
+        <li><a href="./sitemap.html">Sitemap</a></li>
+    </ul>
+    <div class="button-action">
+        <a href="#!" class="btn-link" id="form-open"><span>Đăng nhập</span></a>
+    </div>
+</nav>
+<!-- Home -->
+<section class="home">
+    <div class="form_container">
+        <i class="uil uil-times form_close"></i>
+        <!-- Đăng nhập form -->
+        <div class="form login_form">
+            <form action="#!">
+                <h2>Đăng nhập</h2>
+                <div class="input_box">
+                    <input type="email" placeholder="Nhập email..." required id="emails"/>
+                    <i class="uil uil-envelope-alt email"></i>
+                </div>
+                <div class="input_box">
+                    <input type="password" placeholder="Nhập mật khẩu..." required id="pass"/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                <div class="option_field">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check"/>
+                            <label for="check">Lưu tài khoản</label>
+                        </span>
+                    <a href="#!" class="forgot_pw">Quên mật khẩu?</a>
+                </div>
+                <button class="button" id="dangnhap">Đăng nhập</button>
+                <div class="login_signup">
+                    Bạn chưa có tài khoản?
+                    <a href="#!" id="signup">Đăng kí?</a>
+                </div>
+            </form>
+        </div>
+        <!-- Đăng kí -->
+        <div class="form signup_form">
+            <form action="#!">
+                <h2>Đăng kí</h2>
+                <div class="input_box">
+                    <input type="email" placeholder="Nhập email..." required/>
+                    <i class="uil uil-envelope-alt email"></i>
+                </div>
+                <div class="input_box">
+                    <input type="password" placeholder="Nhập mật khẩu..." required/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                <div class="input_box">
+                    <input type="password" placeholder="Nhập lại mật khẩu..." required/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                <button class="button">Đăng kí</button>
+
+                <div class="login_signup">
+                    Bạn đã có tài khoản?
+                    <a href="#!" id="login">Đăng nhập?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<div>
+    <button id="confirmSuccessButton">
+        Đăng nhập thành công
+    </button>
+</div>
+<div>
+    <button id="confirmSuccessButtonThongBao" onclick="showHtmlThongBao()">Thông báo dành riêng cho bạn</button>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var confirmSuccessButtonThongBao = document.getElementById('confirmSuccessButtonThongBao');
+        console.log(confirmSuccessButtonThongBao);
+        var kt = sessionStorage.getItem('isLoggedIn');
+        console.log(kt);
+
+        // Kiểm tra trạng thái và hiển thị thông báo ban đầu khi đăng nhập thành công
+        if (kt === 'true') {
+            confirmSuccessButtonThongBao.classList.add('show');
+            document.querySelector('#form-open').textContent = "Đăng Xuất"
+
+            // Hàm để hiển thị và ẩn thông báo liên tục
+            function toggleMessage() {
+                confirmSuccessButtonThongBao.classList.toggle('show');
+                setTimeout(toggleMessage, 3300); // Hiển thị và ẩn thông báo mỗi 3.3 giây
+            }
+
+            toggleMessage(); // Bắt đầu hiển thị thông báo liên tục
+        }
+    });
+
+</script>
+
+<div class="thanhtoan1">
+    <div class="canho_thanhtoan">
+        <i class="fa-solid fa-xmark huySel" onclick="huySelect(this)"></i>
+        <img src="" alt="" id="sanpham">
+        <div class="infor">
+            <p><i class="fa-solid fa-comments-dollar icon"></i><span id="gia"></span></p>
+            <p><i class="fa-regular fa-hand-point-right"></i><span id="mota"></span></p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Lấy dữ liệu từ sessionStorage
+    const selectedApartment = JSON.parse(sessionStorage.getItem('selectedApartment'));
+
+    if (selectedApartment) {
+        // Hiển thị thông tin sản phẩm
+        document.getElementById('sanpham').setAttribute('src', selectedApartment.productImage);
+        document.getElementById('gia').textContent = 'Giá: ' + selectedApartment.productPrice;
+        document.getElementById('mota').textContent = 'Mô tả: ' + selectedApartment.productTitle;
+    } else {
+        // Hiển thị thông báo khi không có dữ liệu
+        document.getElementById('gia').textContent = 'Giá: Không có thông tin';
+        document.getElementById('mota').textContent = 'Mô tả: Không có thông tin';
+    }
+
+    // Xóa sản phẩm đã chọn khỏi sessionStorage sau khi hiển thị (nếu cần)
+    // sessionStorage.removeItem('selectedApartment');
+</script>
+
+
+<div class="thanhtoan">
+    <h1>Lựa chọn Ngân Hàng để thực hiện giao dịch</h1>
+    <label for="nganhang">Chọn ngân hàng:</label>
+    <select id="nganhang" name="nganhang">
+        <option value="nganhang1">VietinBank</option>
+        <option value="nganhang2">Vietcombank</option>
+        <option value="nganhang3">Agribank</option>
+        <option value="nganhang3">Techcombank</option>
+        <option value="nganhang3">Sacombank</option>
+    </select>
+</div>
+<h2>Điền đầy đủ chỉnh xác các thông tin để thực hiện thanh toán thành công!</h2>
+<div class="thongtinthe">
+
+    <div class="sumMoney">
+
+        <span class="tien_thanhtoan">Tống tiền cần thanh toán: </span>
+        <span id="tien"></span>
+        <script>
+            var giaElements = document.querySelector('#gia').textContent;
+            var gia = giaElements.substring(giaElements.indexOf(":") + 2);
+            document.querySelector('#tien').textContent = gia + ' VND';
+        </script>
+    </div>
+
+</div>
+<form id="paymentForm">
+    <div class="main_thanhtoan">
+        <div class="boc">
+            <div class="box-1">
+                    <span>
+                        <label for="cardNumber">Mã thẻ:</label>
+                        <input type="number" id="cardNumber" required>
+                        <div class="error-message">Vui lòng nhập mã thẻ</div>
+                    </span>
+                <span>
+                        <label for="expirationDate" aria-placeholder="MM/YY">Ngày hết hạn:</label>
+                        <input type="month" id="expirationDate" required>
+                        <div class="error-message">Vui lòng nhập ngày hết hạn</div>
+                    </span>
+            </div>
+            <div class="box-1">
+                    <span>
+                        <label for="cardHolder">Tên chủ thẻ:</label>
+                        <input type="text" id="cardHolder" required>
+                        <div class="error-message">Vui lòng nhập tên chủ thẻ</div>
+                    </span>
+                <span>
+                        <label for="cvc">CVC/CVV:</label>
+                        <input type="number" id="cvc" required>
+                        <div class="error-message">Vui lòng nhập CVC/CVV</div>
+                    </span>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="atm"><img src="./assets/css/img/aatm.jpg" alt=""></div>
+</form>
+
+<div class="text"> Sau khi điền đủ thông tin hãy "xác nhận và thanh toán" để hoàn tất giao
+    dịch
+</div>
+<div class="finish">
+    <button id="confirmPayment">Xác nhận và thanh toán</button>
+</div>
+<script>
+    var inputFields = document.querySelectorAll('input[required]');
+
+    inputFields.forEach(function (inputField) {
+        inputField.addEventListener('input', function () {
+            var errorMessage = inputField.nextElementSibling;
+            errorMessage.style.display = inputField.value.trim() === '' ? 'block' : 'none';
+        });
+    });
+
+    document.getElementById('confirmPayment').addEventListener('click', function (event) {
+        var errorMessages = document.querySelectorAll('.error-message');
+        var hasError = false;
+
+        errorMessages.forEach(function (errorMessage) {
+            errorMessage.style.display = errorMessage.previousElementSibling.value.trim() === '' ? 'block' : 'none';
+            if (errorMessage.style.display === 'block') {
+                hasError = true;
+            }
+        });
+
+        if (hasError) {
+            event.preventDefault();
+        }
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var confirmButton = document.getElementById('confirmPayment');
+        var confirmSuccessButton = document.getElementById('confirmSuccessButton')
+        confirmButton.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            // Thực hiện các xử lý kiểm tra thông tin thẻ ở đây
+            var cardNumber = document.getElementById('cardNumber').value;
+            var expirationDate = document.getElementById('expirationDate').value;
+            var cardHolder = document.getElementById('cardHolder').value;
+            var cvc = document.getElementById('cvc').value;
+
+            // Kiểm tra tính hợp lệ của thông tin thẻ là kiểm tra không được để trống
+            if (cardNumber === '' || expirationDate === '' || cardHolder === '' || cvc === '') {
+                confirmSuccessButton.textContent = "Xác nhận không thành công"
+                confirmSuccessButton.classList.add('show');
+                showbutton();
+
+                return;
+            }
+            // Đã xác nhận thành công
+
+            // thêm vào khi xác nhận thành công thì chuyển "Đang thanh toán" trên tran sanpham thành "Đã đặt cộc"
+            // sau đó tiếp tục lấy thông tin của các chung cư được đặt cộc sang phần hóa đơn
+            confirmSuccessButton.textContent = "Xác nhận thành công"
+            confirmSuccessButton.classList.add('show');
+            showbutton();
+
+
+        });
+
+    });
+
+    function showbutton() {
+        setTimeout(function () {
+            confirmSuccessButton.classList.remove('show');
+        }, 3000);
+    }
+
+</script>
+
+
+<!-- Liên hệ -->
+<div class="container-lh">
+    <div class="container-ndlh">
+        <h2 class="title">LIÊN HỆ</h2>
+        <h3 class="name">ĐƠN VỊ QUẢN LÍ VÀ ĐIỀU HÀNH CỬA HÀNG</h3>
+        <div class="box_thongtin">
+            <i class="fa-solid fa-house"></i>
+            <p class="dia-chi">
+                53-Đường số 20-Hiệp bình chánh-Thủ đức
+            </p>
+        </div>
+        <div class="box_thongtin">
+            <i class="fa-solid fa-phone"></i>
+            <p class="phone">0392.117.910</p>
+        </div>
+        <div class="box_thongtin">
+            <i class="fa-solid fa-envelope"></i>
+            <p class="gmail">huynhkieumyy@gmail.com</p>
+        </div>
+    </div>
+    <div class="box_lienhe">
+        <h3 class="Thongtin">THÔNG TIN LIÊN HỆ</h3>
+        <p class="desc">
+            Vui lòng điền đầy đủ thông tin để chúng tôi có thể hỗ trợ bạn tốt
+            nhất.
+        </p>
+        <div class="box-input">
+            <div class="input_tt">
+                <input type="text" name="hoten" id="hoten" placeholder="Tên đầy đủ" required class="hvt"/>
+            </div>
+            <div class="input_tt">
+                <input autocomplete="off" type="email" placeholder="Địa chỉ Email"
+                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="email" required/>
+                <input autocomplete="off" type="tel" pattern="(84|0(3|5|7|8|9)+([0-9]{8}))\b"
+                       placeholder="Số điện thoại"
+                       class="sdt" required/>
+            </div>
+            <div class="input_tt">
+                <textarea autocomplete="off" type="text" rows="4" placeholder="Nội dung..." required></textarea>
+            </div>
+        </div>
+        <a href="./lienhe1.html">
+            <button class="btn-lh">Gửi liên hệ</button>
+        </a>
+    </div>
+</div>
+
+<!-- footer -->
+<footer class="footer">
+    <div class="footer__modify">
+        <div class="footer__navbar">
+            <div class="footer_navbar_body">
+                <div class="distance">
+                    <i class="fa-solid fa-phone-volume icon_navbar"></i>
+                    <h3>Hotline</h3>
+                    0392.117.910
+                </div>
+                <div class="distance">
+                    <i class="fa-solid fa-location-dot icon_navbar"></i>
+                    <h3>Địa chỉ</h3>
+                    <p>53-Đường số 20-Hiệp bình chánh-Thủ đức</p>
+                </div>
+                <div class="distance qr">
+                    <i class="fa-solid fa-envelope icon_navbar qr"></i>
+                    <h3>Email</h3>
+                    <p class="qr">huynhkieumyy@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__main">
+            <div class="footer-content">
+                <div class="footer__body__first">
+                    <div class="noidung">
+                        <h2>THÔNG TIN LIÊN HỆ</h2>
+                        <div>
+                            <i class="fa-solid fa-house distance"></i>
+                            <span class="distance">53 - Đường số 20 - Hiệp bình chánh - Thủ đức
+                </span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone distance"></i>
+                            <span class="distance">0392.117.910</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope distance"></i>
+                            <span class="distance">huynhkieumyy@gmail.com </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__body__second">
+                    <h2>HỖ TRỢ TRỰC TUYẾN</h2>
+                    <div class="picture">
+                        <img src="./assets/css/img/nhanviennhansu.jpg" alt="nhân viên tư vấn" class="img_tuvan"/>
+                        <div class="thongtin">
+                            <u style="color: rgb(164, 241, 11)"> Mrs.Lien</u>
+                            <p class="distance">Nhân viên tư vấn</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__body__final">
+                    <h2>VỊ TRÍ</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.8083688122865!2d106.72058037476688!3d10.825972358278458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752881f8a6f7c3%3A0x8232627d3d17bd5a!2zNTMgxJAuIFPhu5EgMjAsIEhp4buHcCBCw6xuaCBDaMOhbmgsIFRo4bunIMSQ4bupYywgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1730487305009!5m2!1svi!2s"
+                            width="400" height="400" style="border:0; top: 10px" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="backtop">
+    <i class="fa-solid fa-circle-up"></i>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop()) {
+                $(".backtop").fadeIn();
+            } else {
+                $(".backtop").fadeOut();
+            }
+        });
+    });
+    $(".backtop").click(function () {
+        $("html, body").animate(
+            {
+                scrollTop: 0,
+            },
+            1000
+        );
+    });
+</script>
+<script>
+    function huySelect(i) {
+        // Xóa thông tin chung cư khỏi sessionStorage
+        sessionStorage.removeItem('selectedApartment');
+        document.querySelector('.thanhtoan1').style.display = "none";
+
+        // Cập nhật giao diện
+        document.querySelector('.tieude').textContent = "Danh Sách chung cư đặt cộc đã trống"
+        document.querySelector('#tien').textContent = '0 VND';
+
+    }
+</script>
+<script>
+    function showHtmlThongBao() {
+        window.location.href = "thongbaorieng.html"
+    }
+</script>
+<script src="./java/JS/form_thongtin.js"></script>
+<script src="./java/JS/hienhoadon.js"></script>
+<script src="./java/JS/sign.js"></script>
+</body>
+
+</html>

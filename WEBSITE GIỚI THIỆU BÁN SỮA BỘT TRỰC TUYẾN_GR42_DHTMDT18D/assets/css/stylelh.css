@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+.container_lh_ {
+  display: flex;
+  max-width: 1140px;
+  margin: 40px auto 0;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.container_lh_ .container_tt_lh {
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.container_lh_ .container_tt_lh .heading {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.container_lh_ .container_tt_lh .c-list {
+  display: flex;
+  padding: 18px;
+  line-height: 35px;
+  font-size: 1.5rem;
+  align-items: center;
+  width: 100%;
+}
+.container_lh_ .container_tt_lh .c-list i {
+  background: #00a94f;
+  color: #ffffff;
+  width: 36px;
+  height: 36px;
+  padding-top: 10px;
+  text-align: center;
+  margin-right: 5px;
+}
+.container_lh_ .container_glh {
+    max-width: 450px;
+    height: 545px;
+    background: #e8e8e8;
+    padding: 45px 40px;
+    border-radius: 6px;
+}
+.container_lh_ .container_glh .glh{
+    color: #58595b;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 1.1;
+}
+.container_lh_ .container_glh p{
+    line-height: 1.8;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+ .form-group input{
+    height: 45px;
+    padding-left: 40px;
+    outline: 0;
+    font-style: italic;
+}
+.form-group textarea{   
+    padding-left: 40px;
+    outline: 0;
+    font-style: italic;
+}
+.form-group input:focus,.form-group textarea:focus{
+    box-shadow: 0 0 5px 0 #0b3356;
+}
+.form_control{
+    display: block;
+    width: 100%;
+    line-height: 1.4;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow:none;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    font-size: 1.3rem;
+    padding: 6px 10px;
+}
+.form-group{
+    position: relative;
+    margin-top: 10px;
+}
+.form-group i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 10px;
+    margin-top: 14px;
+    color: #aaa;
+}
+.btn-{
+    width: 100%;
+    background: #00a94f;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: 0;
+    margin-top: 10px;
+    height: 40px;
+    padding: 10px 0;
+    border: none;
+}
+.btn-:hover{
+    box-shadow: 0 0 5px 0 #0b3356;
+    border-color: #051829;
+}   
+.incon_fl i{
+    background: #00a94f;
+    width: 36px;
+    height: 36px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 9px ;
+    margin-left: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.incon_fl i:hover{
+    opacity: 0.8;
+}
+.ggmap{
+  max-width: 1140px;
+  height: 450px;
+  position: relative;
+}
+.map{
+  position: absolute;
+  width: 100%;
+  top:0;
+left: 200px;
+}
+/* Liên hệ thành công */
+.box_lhtc {
+  max-width: 1140px;
+  background: #ebefed;
+  margin:50px auto 0;
+  padding: 20px ;
+}
+.box_lhtc .lhtc{
+  font-size: 2rem;
+  font-weight: 600;
+  position: relative;
+}
+.box_lhtc .lhtc::before{
+  content: "";
+  position: absolute;
+  background-color: #2fd368;
+  width: 90px;
+  height: 2px;
+  border-radius: 999px;
+  left: 0;
+  top: 20px;
+}
+.box_lhtc p{
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.box_lhtc button{
+  font-size: 1.5rem;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: rgb(40, 198, 40);
+  color: #fff;
+transition: all 0.2s ease;
+}
+.box_lhtc button:hover{
+background-color: #00a94f;
+}
+
+#confirmSuccessButton {
+  position: fixed;
+  top: 2px;
+  right: -250px;
+  padding: 10px 20px;
+  background-color: #42af46;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: right 0.3s ease;
+}
+
+#confirmSuccessButton.show {
+  right: 20px;
+}
+
+
+#confirmSuccessButtonThongBao {
+  position: fixed;
+  top: 45%;
+  right: -250px;
+  padding: 10px 20px;
+  background-color: #42af46;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: right 0.3s ease;
+}
+
+#confirmSuccessButtonThongBao.show {
+  right: 20px;
+}
